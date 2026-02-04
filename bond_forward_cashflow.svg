@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="800"
+   height="450"
+   viewBox="0 0 800 450"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="bond_forward_cashflow.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="1.8111111"
+     inkscape:cx="191.87117"
+     inkscape:cy="180.27607"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="coupon-1-8" />
+  <!-- Background -->
+  <rect
+     width="800"
+     height="450"
+     fill="#ffffff"
+     id="rect1" />
+  <g
+     id="coupon-1-8"
+     transform="translate(-158.49702,-56)">
+    <line
+       x1="325.33743"
+       y1="176.87117"
+       x2="325.33743"
+       y2="251.87117"
+       stroke="#9333ea"
+       stroke-width="2"
+       marker-end="url(#arrow-purple-0)"
+       id="line10-8"
+       style="marker-end:url(#arrow-purple-0);opacity:0.34035088" />
+    <text
+       x="323.68097"
+       y="296.3497"
+       font-size="14px"
+       fill="#dc2626"
+       font-family="sans-serif"
+       text-anchor="middle"
+       id="text13-2"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         x="323.68097"
+         y="296.3497"
+         style="font-weight:bold;opacity:0.8"><tspan
+           x="323.68097"
+           id="tspan11-4"
+           style="font-weight:bold">채권 인수전 이표는</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         x="323.68097"
+         y="314.05872"
+         style="font-weight:bold;opacity:0.8"><tspan
+           x="323.68097"
+           dy="0"
+           id="tspan24"
+           style="font-weight:bold">수취하지 못함</tspan></tspan></text>
+  </g>
+  <!-- Definitions for Markers -->
+  <defs
+     id="defs3">
+    <marker
+       id="arrow-black"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M0,0 L10,5 L0,10 Z"
+         fill="black"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M0,0 L10,5 L0,10 Z"
+         fill="#2563eb"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrow-purple"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M0,0 L10,5 L0,10 Z"
+         fill="#9333ea"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrow-purple-0"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#9333ea"
+         id="path3-9" />
+    </marker>
+    <marker
+       id="arrow-purple-1"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#9333ea"
+         id="path3-7" />
+    </marker>
+  </defs>
+  <!-- Horizontal Timeline -->
+  <line
+     x1="50"
+     y1="200"
+     x2="750"
+     y2="200"
+     stroke="black"
+     stroke-width="2"
+     id="line3" />
+  <!-- 1. [Red/Black] Pre-settlement Coupon (NOT RECEIVED) -->
+  <!-- 2. [Blue] Settlement - Price Payment -->
+  <g
+     id="settlement">
+    <line
+       x1="230"
+       y1="200"
+       x2="230"
+       y2="330"
+       stroke="#2563eb"
+       stroke-width="2"
+       marker-end="url(#arrow-blue)"
+       id="line8" />
+    <text
+       x="245"
+       y="320"
+       font-size="15"
+       fill="#2563eb"
+       font-family="sans-serif"
+       id="text10"><tspan
+         x="245"
+         dy="1.2em"
+         id="tspan8">선도 계약에서 정한</tspan><tspan
+         x="245"
+         dy="1.2em"
+         id="tspan10">채권 가격 지급</tspan></text>
+  </g>
+  <!-- 3. [Purple] Coupon Receipt 1 -->
+  <g
+     id="coupon-1">
+    <line
+       x1="380"
+       y1="120"
+       x2="380"
+       y2="195"
+       stroke="#9333ea"
+       stroke-width="2"
+       marker-end="url(#arrow-purple)"
+       id="line10" />
+    <text
+       x="380"
+       y="225"
+       font-size="14"
+       fill="#555"
+       font-family="sans-serif"
+       text-anchor="middle"
+       id="text13"><tspan
+         x="380"
+         dy="1.2em"
+         id="tspan11">underlying</tspan><tspan
+         x="380"
+         dy="1.2em"
+         fill="#9333ea"
+         font-weight="bold"
+         id="tspan12">채권 이표</tspan><tspan
+         x="380"
+         dy="1.2em"
+         id="tspan13">수취</tspan></text>
+  </g>
+  <!-- 4. [Purple] Coupon Receipt 2 -->
+  <g
+     id="coupon-2">
+    <line
+       x1="550"
+       y1="120"
+       x2="550"
+       y2="195"
+       stroke="#9333ea"
+       stroke-width="2"
+       marker-end="url(#arrow-purple)"
+       id="line13" />
+    <line
+       x1="704.24542"
+       y1="121.39264"
+       x2="704.24542"
+       y2="196.39264"
+       stroke="#9333ea"
+       stroke-width="2"
+       marker-end="url(#arrow-purple-1)"
+       id="line13-1"
+       style="marker-end:url(#arrow-purple-1)" />
+    <text
+       x="550"
+       y="225"
+       font-size="14"
+       fill="#555"
+       font-family="sans-serif"
+       text-anchor="middle"
+       id="text16"><tspan
+         x="550"
+         dy="1.2em"
+         id="tspan14">underlying</tspan><tspan
+         x="550"
+         dy="1.2em"
+         fill="#9333ea"
+         font-weight="bold"
+         id="tspan15">채권 이표</tspan><tspan
+         x="550"
+         dy="1.2em"
+         id="tspan16">수취</tspan></text>
+  </g>
+  <!-- 5. [Purple] Maturity - Coupon & Principal Receipt -->
+  <g
+     id="maturity">
+    <!-- Multiple arrows to signify bulk receipt -->
+    <line
+       x1="720"
+       y1="70"
+       x2="720"
+       y2="195"
+       stroke="#9333ea"
+       stroke-width="3"
+       marker-end="url(#arrow-purple)"
+       id="line16" />
+    <text
+       x="705"
+       y="225"
+       font-size="14"
+       fill="#555"
+       font-family="sans-serif"
+       text-anchor="start"
+       id="text21"><tspan
+         x="705"
+         dy="1.2em"
+         id="tspan18">underlying</tspan><tspan
+         x="705"
+         dy="1.2em"
+         fill="#9333ea"
+         font-weight="bold"
+         id="tspan19">채권</tspan><tspan
+         x="705"
+         dy="1.2em"
+         id="tspan20">이자, 원금</tspan><tspan
+         x="705"
+         dy="1.2em"
+         id="tspan21">수취</tspan></text>
+  </g>
+</svg>

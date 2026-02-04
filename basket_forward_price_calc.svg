@@ -1,0 +1,67 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#ffffff"/>
+  
+  <!-- Definitions for Markers -->
+  <defs>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#b91c1c" />
+    </marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#f97316" />
+    </marker>
+  </defs>
+
+  <!-- Main Timeline Axis -->
+  <line x1="80" y1="200" x2="720" y2="200" stroke="#3b82f6" stroke-width="1.5"/>
+  
+  <!-- Vertical Dashed Reference Lines -->
+  <!-- Today -->
+  <line x1="80" y1="120" x2="80" y2="300" stroke="#3b82f6" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="85" y="215" font-size="16" font-family="sans-serif">오늘</text>
+  
+  <!-- Maturity Date -->
+  <line x1="320" y1="120" x2="320" y2="300" stroke="#3b82f6" stroke-dasharray="4,4" stroke-width="1"/>
+  <text x="325" y="215" font-size="16" font-family="sans-serif">
+    <tspan x="325" dy="0">국채선물</tspan>
+    <tspan x="325" dy="1.2em">만기일</tspan>
+  </text>
+
+  <!-- Basket Cashflows (Red Arrows) -->
+  <g id="cashflows">
+    <!-- Coupon before maturity -->
+    <line x1="220" y1="130" x2="220" y2="195" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-red)"/>
+    
+    <!-- Coupons after maturity -->
+    <line x1="480" y1="130" x2="480" y2="195" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-red)"/>
+    <line x1="710" y1="130" x2="710" y2="195" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-red)"/>
+    <line x1="720" y1="50" x2="720" y2="195" stroke="#b91c1c" stroke-width="3" marker-end="url(#arrow-red)"/>
+    
+    <text x="600" y="140" font-size="18" fill="#b91c1c" font-family="sans-serif" text-anchor="middle">basket 채권 현금 흐름</text>
+  </g>
+
+  <!-- Step 1: Discounting Coupon before Maturity -->
+  <g id="step-1">
+    <text x="130" y="60" font-size="16" font-family="sans-serif">
+      <tspan x="130" dy="0" font-weight="bold">1)  현물가격에서  선물만기  이전</tspan>
+      <tspan x="130" dy="1.4em" font-weight="bold">이표분 제외 ((discount 하여 차감)</tspan>
+    </text>
+    <!-- Dashed Orange Arrow pointing back to "Today" -->
+    <path d="M 220,130 L 85,130" fill="none" stroke="#f97316" stroke-dasharray="5,3" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  </g>
+
+  <!-- Step 2: Capitalization to Maturity -->
+  <g id="step-2">
+    <text x="130" y="320" font-size="16" font-family="sans-serif">
+      <tspan x="130" dy="0" font-weight="bold">2)  현물  가격을</tspan>
+      <tspan x="130" dy="1.4em" font-weight="bold">선물  만기  시점</tspan>
+      <tspan x="130" dy="1.4em" font-weight="bold">가치로 환산</tspan>
+    </text>
+    <!-- Dashed Orange Arrow pointing to "Maturity Date" -->
+    <path d="M 80,270 L 315,270" fill="none" stroke="#f97316" stroke-dasharray="5,3" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  </g>
+
+  <!-- Footer Title -->
+  <text x="400" y="420" font-size="20" font-weight="bold" font-family="sans-serif" text-anchor="middle">그림 1: basket 선도가격 계산 개요</text>
+
+</svg>
