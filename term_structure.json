@@ -1,0 +1,19 @@
+{
+  "title": "노드 사이 금리 추정 (linear interpolation 선형 보간법)",
+  "unit": {
+    "x": "year",
+    "y": "percentage"
+  },
+  "nodes": [
+    { "x": 1.0, "y": 3.0 },
+    { "x": 2.0, "y": 3.0 },
+    { "x": 3.0, "y": 4.0 },
+    { "x": 4.0, "y": 4.0 }
+  ],
+  "interpolation": {
+    "method": "linear",
+    "points": [
+      { "x": 2.75, "y": 3.75, "note": "interpolated" }
+    ]
+  }
+}

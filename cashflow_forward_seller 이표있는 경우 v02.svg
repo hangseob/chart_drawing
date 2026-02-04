@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="662.26996"
+   height="282.60599"
+   viewBox="0 0 662.26996 282.60599"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="cashflow_forward_seller 이표있는 경우 v02.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6465486"
+     inkscape:cx="359.23627"
+     inkscape:cy="128.4505"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <!-- Background -->
+  <rect
+     width="662.26996"
+     height="282.60599"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0"
+     style="stroke-width:0.944057" />
+  <!-- Arrow definitions -->
+  <defs
+     id="defs3">
+    <rect
+       x="104.78528"
+       y="208.71166"
+       width="6.8711656"
+       height="22.331288"
+       id="rect10" />
+    <rect
+       x="105.21472"
+       y="212.57669"
+       width="5.1533742"
+       height="30.490798"
+       id="rect9" />
+    <marker
+       id="arrow-black"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#000000"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-blue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2563eb"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrow-red"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#dc2626"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrow-blue-0"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="5"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         fill="#2563eb"
+         id="path2-9" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text
+     x="30"
+     y="26.257668"
+     font-size="18px"
+     font-weight="bold"
+     font-family="sans-serif"
+     id="text3">현물 매수, 선도 매도자 입장의 cashflow</text>
+  <!-- Main Timeline -->
+  <line
+     x1="50"
+     y1="166.25766"
+     x2="527.6687"
+     y2="166.25766"
+     stroke="#000000"
+     stroke-width="2"
+     id="line3" />
+  <!-- [Left] Spot Buy Section -->
+  <g
+     id="spot-buy"
+     transform="translate(0,-13.742332)">
+    <!-- Label -->
+    <text
+       x="50"
+       y="160"
+       font-size="15px"
+       font-weight="bold"
+       font-family="sans-serif"
+       id="text4">현물 매수 결제일</text>
+    <!-- Outflow Arrow (Down) -->
+    <line
+       x1="80"
+       y1="180"
+       x2="80"
+       y2="280"
+       stroke="#dc2626"
+       stroke-width="3"
+       marker-end="url(#arrow-red)"
+       id="line4" />
+    <text
+       x="13.404908"
+       y="237.85277"
+       font-size="14px"
+       fill="#dc2626"
+       font-family="sans-serif"
+       id="text5">현물 가격</text>
+  </g>
+  <!-- [Right] Forward Sell Section -->
+  <g
+     id="forward-sell"
+     transform="translate(-79.877301,-18.895707)">
+    <!-- Label -->
+    <text
+       x="554.23309"
+       y="202.26994"
+       font-size="15px"
+       font-weight="bold"
+       font-family="sans-serif"
+       text-anchor="end"
+       id="text6">선도 매도 결제일</text>
+    <!-- Inflow Arrow (Up) -->
+    <line
+       x1="520"
+       y1="77"
+       x2="520"
+       y2="177"
+       stroke="#2563eb"
+       stroke-width="3"
+       marker-end="url(#arrow-blue)"
+       id="line6" />
+    <line
+       x1="295.98776"
+       y1="128.10429"
+       x2="295.98776"
+       y2="182.65787"
+       stroke="#2563eb"
+       stroke-width="2.21581"
+       marker-end="url(#arrow-blue-0)"
+       id="line6-8"
+       style="marker-end:url(#arrow-blue-0)" />
+    <text
+       x="535"
+       y="120"
+       font-size="14px"
+       fill="#2563eb"
+       font-family="sans-serif"
+       id="text7">선물 가격</text>
+    <text
+       x="278.3522"
+       y="119.85789"
+       font-size="14px"
+       fill="#2563eb"
+       font-family="sans-serif"
+       id="text7-2">이표</text>
+  </g>
+  <!-- Time Indicator -->
+  <text
+     xml:space="preserve"
+     style="writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:11.1406;fill:#2563eb;stroke-width:2;stroke-dasharray:none;fill-opacity:1"
+     x="106.07362"
+     y="211.71779"
+     id="text8"
+     transform="matrix(1,0,0,2.9887187,1.2883436,-441.13679)"><tspan
+       x="106.07362"
+       y="211.71779"
+       id="tspan2">}</tspan></text>
+  <text
+     xml:space="preserve"
+     style="writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:11.1406;fill:#2563eb;fill-opacity:1;stroke-width:2;stroke-dasharray:none"
+     x="106.07362"
+     y="211.71779"
+     id="text8-5"
+     transform="matrix(1,0,0,6.8670392,1.2595754,-1197.1786)"><tspan
+       x="106.07362"
+       y="211.71779"
+       id="tspan3">}</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text9"
+     style="fill:#000000;writing-mode:lr-tb;text-orientation:auto;direction:ltr;white-space:pre;shape-inside:url(#rect9)" />
+  <text
+     xml:space="preserve"
+     id="text10"
+     style="fill:#000000;writing-mode:lr-tb;text-orientation:auto;direction:ltr;stroke-width:2;stroke-dasharray:none;white-space:pre;shape-inside:url(#rect10)" />
+  <a
+     id="a10">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#arrow-black)"
+       d="M 215.15337,129.04908 C 163.297545,129.04908 163.297545,181.65644 111.44172,181.65644"
+       id="path10"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+  </a>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#arrow-black)"
+     d="M 436.06364,99.60228 C 272.995275,99.60228 272.995275,233.2151 109.92691,233.2151"
+     id="path11"
+     inkscape:connector-type="polyline"
+     inkscape:connector-curvature="0" />
+</svg>

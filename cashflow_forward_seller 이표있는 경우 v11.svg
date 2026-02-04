@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="125.053 84.899 574.994 329.056" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <rect x="104.78528" y="208.71166" width="6.8711656" height="22.331288" id="rect10"/>
+    <rect x="105.21472" y="212.57669" width="5.1533742" height="30.490798" id="rect9"/>
+    <marker id="arrow-black" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0,0 10,5 0,10 Z" id="path1" style="paint-order: stroke markers; fill: rgb(0, 255, 64);"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0,0 10,5 0,10 Z" fill="#2563eb" id="path2"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0,0 10,5 0,10 Z" fill="#dc2626" id="path3"/>
+    </marker>
+    <marker id="arrow-blue-0" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 0,0 10,5 0,10 Z" fill="#2563eb" id="path2-9"/>
+    </marker>
+  </defs>
+  <g id="svg8" transform="matrix(1, 0, 0, 1, 391.12619, 153.316956)">
+    <path id="rect1" style="stroke-width: 0.944;" fill="#ffffff" d="M -262.66 -31.511 H 305.34 L 305.34 -31.511 V 240.489 L 305.34 240.489 H -262.66 L -262.66 240.489 V -31.511 L -262.66 -31.511 Z" bx:shape="rect -262.66 -31.511 568 272 1 0 0 2@b32c25c9"/>
+    <text x="-230.52" y="-30.328" font-size="18px" font-weight="bold" font-family="sans-serif" id="text3" style="white-space: pre; stroke-width: 1; font-size: 18px;">현물 매수, 선도 매도자 입장의 cashflow</text>
+    <line x1="-210.52" y1="109.672" x2="267.144" y2="109.672" stroke="#000000" stroke-width="2" id="line3" style="stroke-width: 2;"/>
+    <g id="spot-buy" transform="matrix(1, 0, 0, 1, -260.524292, -70.328209)">
+      <text x="50" y="160" font-size="15px" font-weight="bold" font-family="sans-serif" id="text4" style="white-space: pre;">현물 매수 결제일</text>
+      <line x1="80" y1="180" x2="80" y2="280" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow-red)" id="line4"/>
+      <text x="13.404908" y="237.85277" font-size="14px" fill="#dc2626" font-family="sans-serif" id="text5" style="white-space: pre;">현물 가격</text>
+    </g>
+    <g id="forward-sell" transform="matrix(1, 0, 0, 1, -340.401581, -75.481583)">
+      <text x="554.23309" y="202.26994" font-size="15px" font-weight="bold" font-family="sans-serif" text-anchor="end" id="text6" style="white-space: pre;">선도 매도 결제일</text>
+      <line x1="520" y1="77" x2="520" y2="177" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)" id="line6"/>
+      <line x1="295.98776" y1="128.10429" x2="295.98776" y2="182.65787" stroke="#2563eb" stroke-width="2.21581" marker-end="url(#arrow-blue-0)" id="line6-8" style="marker-end:url(#arrow-blue-0)"/>
+      <text x="535" y="120" font-size="14px" fill="#2563eb" font-family="sans-serif" id="text7" style="white-space: pre;">선물 가격</text>
+      <text x="278.3522" y="119.85789" font-size="14px" fill="#2563eb" font-family="sans-serif" id="text7-2" style="white-space: pre;">이표</text>
+    </g>
+    <text style="writing-mode: lr-tb; direction: ltr; white-space: pre; fill: rgb(37, 99, 235); stroke-width: 2; stroke-dasharray: none; fill-opacity: 1;" x="106.07362" y="211.71779" id="text8" transform="matrix(1, 0, 0, 2.143786, -262.082458, -314.729584)"><tspan x="106.07362" y="211.71779" id="tspan2">}</tspan></text>
+    <text style="writing-mode: lr-tb; direction: ltr; white-space: pre; fill: rgb(37, 99, 235); fill-opacity: 1; stroke-width: 2; stroke-dasharray: none;" x="106.07362" y="211.71779" id="text8-5" transform="matrix(1, 0, 0, 4.673903, -262.082458, -781.971436)"><tspan x="106.07362" y="211.71779" id="tspan3">}</tspan></text>
+    <text id="text9" style="fill: rgb(0, 0, 0); writing-mode: lr-tb; direction: ltr; white-space: pre; stroke-width: 1; font-size: 16px;"/>
+    <text id="text10" style="fill: rgb(0, 0, 0); writing-mode: lr-tb; direction: ltr; stroke-width: 2; stroke-dasharray: none; white-space: pre; font-size: 16px;"/>
+    <a id="a10" transform="matrix(1, 0, 0, 1, -260.524292, -56.585873)">
+      <path style="fill-rule: evenodd; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; marker-end: url(&quot;#arrow-black&quot;); fill: none; stroke: rgb(0, 255, 106);" d="M 215.15337,129.04908 C 163.297545,129.04908 163.297545,181.65644 111.44172,181.65644" id="path10"/>
+    </a>
+    <path style="fill: none; fill-rule: evenodd; stroke-width: 1; stroke-linecap: butt; stroke-linejoin: miter; stroke-opacity: 1; marker-end: url(&quot;#arrow-black&quot;); stroke: rgb(0, 255, 106);" d="M 175.539 43.016 C 54.405 43.016 23.255 116.746 -51.601 154.666 C -77.514 167.793 -108.665 176.629 -150.6 176.629" id="path11"/>
+  </g>
+</svg>

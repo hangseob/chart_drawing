@@ -1,0 +1,59 @@
+<svg width="600" height="350" viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="350" fill="#ffffff"/>
+  
+  <!-- Definitions for Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="black" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" font-size="18" font-weight="bold" font-family="sans-serif">
+    노드 사이 금리 추정 (linear interpolation 선형 보간법)
+  </text>
+
+  <!-- Axes -->
+  <line x1="60" y1="280" x2="560" y2="280" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="60" y1="280" x2="60" y2="60" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Data Line (consistent scale: 1 year = 100px, 3% = 180px, 4% = 80px) -->
+  <!-- Points: (1yr, 3%), (2yr, 3%), (3yr, 4%), (4yr, 4%) -->
+  <!-- X: 60 + year * 100 -->
+  <!-- Y: 280 - (rate - 2) * 100 (using 2% as a base to keep it in view) -->
+  <!-- Actually, let's just use the values from the image for visual similarity -->
+  
+  <polyline points="160,180 260,180 360,80 460,80" fill="none" stroke="black" stroke-width="2.5"/>
+  
+  <!-- Data Points -->
+  <!-- 1년, 3% -->
+  <circle cx="160" cy="180" r="5" fill="white" stroke="black" stroke-width="2"/>
+  <text x="160" y="155" text-anchor="middle" font-size="16" font-weight="bold">3%</text>
+  <text x="160" y="305" text-anchor="middle" font-size="14">1년</text>
+
+  <!-- 2년, 3% -->
+  <circle cx="260" cy="180" r="5" fill="white" stroke="black" stroke-width="2"/>
+  <text x="260" y="155" text-anchor="middle" font-size="16" font-weight="bold">3%</text>
+  <text x="260" y="305" text-anchor="middle" font-size="14">2년</text>
+
+  <!-- 3년, 4% -->
+  <circle cx="360" cy="80" r="5" fill="white" stroke="black" stroke-width="2"/>
+  <text x="360" y="55" text-anchor="middle" font-size="16" font-weight="bold">4%</text>
+  <text x="360" y="305" text-anchor="middle" font-size="14">3년</text>
+
+  <!-- 4년, 4% -->
+  <circle cx="460" cy="80" r="5" fill="white" stroke="black" stroke-width="2"/>
+  <text x="460" y="55" text-anchor="middle" font-size="16" font-weight="bold">4%</text>
+  <text x="460" y="305" text-anchor="middle" font-size="14">4년</text>
+
+  <!-- Interpolated Point: 2.75년, 3.75% -->
+  <!-- X = 260 + (360-260) * 0.75 = 335 -->
+  <!-- Y = 180 - (180-80) * 0.75 = 105 -->
+  <line x1="335" y1="280" x2="335" y2="105" stroke="red" stroke-dasharray="5,3" stroke-width="2"/>
+  <circle cx="335" cy="105" r="4" fill="red"/>
+  
+  <text x="335" y="90" text-anchor="middle" fill="red" font-size="16" font-weight="bold">3.75%</text>
+  <text x="335" y="325" text-anchor="middle" fill="red" font-size="14" font-weight="bold">2.75년</text>
+
+</svg>
